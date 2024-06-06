@@ -1,4 +1,7 @@
-int n = hand.size();
+class Solution {
+public:
+    bool isNStraightHand(vector<int>& hand, int groupSize) {
+        int n = hand.size();
 
         if(n % groupSize) {
             return false;
@@ -27,3 +30,5 @@ int n = hand.size();
         }
 
         return true;
+    }
+};
