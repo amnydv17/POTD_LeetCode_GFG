@@ -5,7 +5,6 @@ class DSU {
         int components;
 
     public : 
-        
         DSU(int n) {
             parent.resize(n+1);
             rank.resize(n+1);
