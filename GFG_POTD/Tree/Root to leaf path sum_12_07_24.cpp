@@ -9,6 +9,7 @@ class Solution {
         //recursive case
         if(root-> left ==NULL && root->right == NULL){
             return target==root->data;
+            
         }
         int newtarget=target - root->data;
         return hasPathSum(root->left,newtarget) || hasPathSum(root->right,newtarget);
