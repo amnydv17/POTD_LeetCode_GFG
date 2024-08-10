@@ -1,4 +1,4 @@
-## Maximize Array Value After Rearrangement
+#Maximize Array Value After Rearrangement
 
 
 
