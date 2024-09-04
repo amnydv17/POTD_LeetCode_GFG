@@ -12,7 +12,7 @@ public:
         int maxD = 0;
 
         //Pointing to North  
-        pair<int, int> dir = {0, 1}; //N
+        pair<int, int> dir = {0, 1}; //N 
 
         for(int i = 0; i < commands.size(); i++) {
             if(commands[i] == -2) { //left 90 degree
