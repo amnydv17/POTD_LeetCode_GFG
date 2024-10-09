@@ -17,6 +17,5 @@ class Solution {
                if(i<n-1)  Nodemat[i][j]->down=Nodemat[i+1][j];
     }}
     return Nodemat[0][0];
-        
     }
 };
