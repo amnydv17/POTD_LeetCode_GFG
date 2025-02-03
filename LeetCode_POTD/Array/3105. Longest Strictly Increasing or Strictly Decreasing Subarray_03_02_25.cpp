@@ -4,21 +4,21 @@ public:
         int inCount = 1;
         int DeCount = 1;
         int len = 1;
-        for(int i=0; i<nums.size()-1;i++)
+        for(int i=1; i<nums.size();i++)
         {
-            if(nums[i]>nums[i+1])
+            if(nums[i]>nums[i-1])
             {
                 inCount++;
                 DeCount = 1;
 
-                len = max(inCount, DeCount);
+                len = max(inCount, len);
             }
-            else if(nums[i] < nums[i+1])
+            else if(nums[i] < nums[i-1])
             {
                 DeCount++;
                 inCount = 1;
 
-                len = max(inCount, DeCount);
+                len = max(len, DeCount);
             }
             else{
                 inCount = 1;
