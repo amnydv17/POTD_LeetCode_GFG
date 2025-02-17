@@ -8,7 +8,8 @@ class Solution {
               if (count[pos] == 0) {
                   continue;
               }
-  
+
+            
               count[pos]--;
               findSequences(count);
               count[pos]++;
