@@ -13,17 +13,52 @@ The repository is organized into several directories, each containing solutions 
   - **Array**: Solutions related to array manipulation and problems.
   - **Backtracking**: Solutions for backtracking problems.
   - **Binary Search Tree**: Solutions related to binary search trees.
-  - **Dynamic Programming**: Solutions for dynamic programming problems.
-  - **Graph**: Solutions for graph-related problems.
-  - **Greedy**: Solutions for greedy algorithm problems.
+  - **Binary_Search**: Solutions involving binary search techniques.
+  - **Bit**: Solutions using bit manipulation.
+  - **DP**: Dynamic programming problem solutions.
+  - **Graph**: Graph algorithm solutions.
+  - **Greedy**: Greedy algorithm solutions.
   - **Hashmap**: Solutions involving hashmaps.
   - **Heap**: Solutions related to heap data structures.
   - **Linked List**: Solutions for linked list problems.
-  - **Tree**: Solutions for tree-related problems.
-  - **...** (and more)
+  - **Mathmatical**: Mathematical problem solutions.
+  - **Queue**: Queue data structure problems.
+  - **Searching**: Searching algorithm solutions.
+  - **Sliding Window**: Sliding window technique problems.
+  - **Stack**: Stack data structure problems.
+  - **String**: String manipulation and algorithm problems.
+  - **Tree**: Tree data structure problems.
+  - **Two-Pointer**: Two-pointer technique problems.
+
+- **LeetCode_POTD**: Contains solutions to problems from LeetCode.
+  - **Array**: Array problems.
+  - **Backtracking**: Backtracking problems.
+  - **Binary Search**: Binary search problems.
+  - **Bit**: Bit manipulation problems.
+  - **BS Tree**: Binary Search Tree problems.
+  - **Design Data Structure**: Data structure design problems.
+  - **DP**: Dynamic programming problems.
+  - **Graph**: Graph problems.
+  - **Greedy**: Greedy algorithm problems.
+  - **Hashmap**: Hashmap related problems.
+  - **Heap**: Heap data structure problems.
+  - **Leetcode Easy**: Easier level LeetCode problems.
+  - **Linked List**: Linked list problems.
+  - **Maths**: Mathematical problems.
+  - **Recursion**: Recursion problems.
+  - **Sliding Window**: Sliding window technique problems.
+  - **Sorting**: Sorting algorithm problems.
+  - **Stack**: Stack problems.
+  - **String**: String problems.
+  - **Tree**: Tree problems.
+  - **TRIE**: Trie data structure problems.
+  - **Two-Pointer**: Two-pointer technique problems.
 
 ## Usage
 To use the solutions in this repository, simply navigate to the relevant directory and open the corresponding file for the problem you are interested in. Each file contains the problem statement and the solution in C++.
+
+Note: All solutions are implemented in C++.
+
 
 ## Contributing
 Contributions are welcome! If you have a solution to a problem or an improvement to an existing solution, feel free to submit a pull request.
